@@ -30,7 +30,7 @@ document.getElementById("cadastro-form").addEventListener("submit", async functi
 
         if (response.ok) {
             alert("Usuário cadastrado com sucesso!");
-            window.location.href = "https://bueninkt.github.io/TelinhaL/";
+            window.location.href = "https://andreifiuza.github.io/TELA-LOGIN01/";
         } else {
             alert("Erro ao cadastrar usuário: " + (data.message || "Verifique os dados e tente novamente."));
         }
